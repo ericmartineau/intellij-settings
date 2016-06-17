@@ -20,21 +20,54 @@
           </profile>
         </annotationProcessing>
       </component>
+      <component name="Encoding">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
       <component name="GradleLocalSettings">
         <option name="modificationStamps">
           <map>
-            <entry key="$USER_HOME$/Projects/automation-orchestrator" value="2897858436000" />
-            <entry key="$USER_HOME$/Projects/infusionsoft-platform-extensions" value="4388901941000" />
-            <entry key="$USER_HOME$/Projects/insight-service" value="2926919074000" />
-            <entry key="$USER_HOME$/Projects/jackson-datatypes" value="2918460160000" />
-            <entry key="$USER_HOME$/Projects/plugin-schema" value="2923264236000" />
-            <entry key="$USER_HOME$/Projects/strategy-builder" value="2928820350000" />
-            <entry key="$USER_HOME$/Projects/strategy-schema" value="2918566644000" />
-            <entry key="$USER_HOME$/Projects/voltron" value="2916965973000" />
+            <entry key="$USER_HOME$/Projects/alexandria" value="2906287113000" />
+            <entry key="$USER_HOME$/Projects/automation-orchestrator" value="2919593775000" />
+            <entry key="$USER_HOME$/Projects/erie-gradle-plugin" value="2915315430000" />
+            <entry key="$USER_HOME$/Projects/erie-runtime-library" value="5847826920000" />
+            <entry key="$USER_HOME$/Projects/extension-event-broker" value="2923205302000" />
+            <entry key="$USER_HOME$/Projects/gradle-platform-plugin" value="2916675780000" />
+            <entry key="$USER_HOME$/Projects/gradle-sdk-generation-plugin" value="8734976994000" />
+            <entry key="$USER_HOME$/Projects/gradle-voltron-plugin" value="2916724672000" />
+            <entry key="$USER_HOME$/Projects/hosted-page-service" value="2909309260000" />
+            <entry key="$USER_HOME$/Projects/infusionsoft-platform-extensions" value="4394130024000" />
+            <entry key="$USER_HOME$/Projects/insight-schema" value="2921775893000" />
+            <entry key="$USER_HOME$/Projects/insight-service" value="2925640955000" />
+            <entry key="$USER_HOME$/Projects/j2js" value="2916701592000" />
+            <entry key="$USER_HOME$/Projects/jackson-datatypes" value="2919636006000" />
+            <entry key="$USER_HOME$/Projects/pancakes-build-plugin" value="2909080124000" />
+            <entry key="$USER_HOME$/Projects/pancakes/infusionsoft-spring-boot" value="24727181224000" />
+            <entry key="$USER_HOME$/Projects/platform-bus-util" value="2926015783000" />
+            <entry key="$USER_HOME$/Projects/platform-events" value="2916701206000" />
+            <entry key="$USER_HOME$/Projects/plugin-schema" value="2919036002000" />
+            <entry key="$USER_HOME$/Projects/quartermaster-java" value="2911875780000" />
+            <entry key="$USER_HOME$/Projects/sdk-gen" value="2911844350000" />
+            <entry key="$USER_HOME$/Projects/spring-rest-util" value="2925803002000" />
+            <entry key="$USER_HOME$/Projects/strategy-builder" value="2928215536000" />
+            <entry key="$USER_HOME$/Projects/strategy-schema" value="2906864586000" />
+            <entry key="$USER_HOME$/Projects/strategy-service" value="2909256101000" />
+            <entry key="$USER_HOME$/Projects/sync-channel" value="2909321954000" />
+            <entry key="$USER_HOME$/Projects/sync-engine" value="2909322174000" />
+            <entry key="$USER_HOME$/Projects/tactic-schema" value="2904522527000" />
+            <entry key="$USER_HOME$/Projects/tactic-schema-sdk" value="2929429278000" />
+            <entry key="$USER_HOME$/Projects/voltron" value="2915289614000" />
+            <entry key="$USER_HOME$/Projects/voltron-sdk-tests" value="2916473978000" />
           </map>
         </option>
         <option name="externalProjectsViewState">
           <projects_view />
+        </option>
+      </component>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+          </MavenGeneralSettings>
         </option>
       </component>
       <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -47,7 +80,7 @@
         <ConfirmationsSetting value="0" id="Add" />
         <ConfirmationsSetting value="0" id="Remove" />
       </component>
-      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" assert-keyword="false" jdk-15="false" />
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true" />
       <component name="RunManager">
         <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
           <module name="" />
