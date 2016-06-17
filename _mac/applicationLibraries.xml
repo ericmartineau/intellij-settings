@@ -1,0 +1,16 @@
+<application>
+  <component name="libraryTable">
+    <library name="Alexandria" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Projects/erie-runtime-library/src/main/javascript" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Projects/erie-runtime-library/src/main/javascript" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</application>
