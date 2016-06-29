@@ -33,6 +33,7 @@
       <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="ASPECTJ" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
@@ -43,7 +44,6 @@
       <option name="KOTLIN_EXPRESSION" value="false" />
       <option name="KOTLIN_COMMENT" value="false" />
       <option name="HAML" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
