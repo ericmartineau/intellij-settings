@@ -36,4 +36,18 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="dde" value="domain.set$FIELD$(entity.get$FIELD$());" description="Domain to Entity" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="eed" value="entity.set$FIELD$(domain.get$FIELD$());" description="Entity to Domain" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
