@@ -14,6 +14,9 @@
       <mask>*.js</mask>
       <mask>*.html</mask>
       <mask>*.json</mask>
+      <mask>*.s</mask>
+      <mask>*.sq</mask>
+      <mask>*.sql</mask>
     </recentFileMasks>
   </component>
 </application>
