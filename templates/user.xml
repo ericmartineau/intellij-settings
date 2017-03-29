@@ -65,7 +65,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="lomd" value="@lombok.Getter&#10;@lombok.EqualsAndHashCode&#10;@lombok.ToString&#10;@lombok.Builder&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="lomd" value="@lombok.Getter&#10;@lombok.EqualsAndHashCode&#10;@lombok.ToString&#10;@lombok.Builder&#10;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
