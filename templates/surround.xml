@@ -1,0 +1,10 @@
+<templateSet group="surround">
+  <template name="constraint" value="com.infusionsoft.utils.MockUtils.verifyMethodArgumentFailed($POS$, &quot;$V$&quot;, ()-&gt; {&#10;    $SELECTION$&#10;});&#10;               &#10;" description="Test Constraint" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="POS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="V" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
