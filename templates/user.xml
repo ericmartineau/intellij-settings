@@ -7,7 +7,7 @@
     </context>
   </template>
   <template name="cnn" value="com.google.common.base.Preconditions.checkNotNull($VAR$, &quot;$VAR$ must not be null&quot;);" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
