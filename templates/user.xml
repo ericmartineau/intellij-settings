@@ -70,7 +70,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="supp" value="()-&gt;{}" toReformat="true" toShortenFQNames="true">
+  <template name="supp" value="()-&gt;{}" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
