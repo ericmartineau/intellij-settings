@@ -70,7 +70,9 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="supp" value="()-&gt;{}" description="" toReformat="true" toShortenFQNames="true">
+  <template name="bb" value="$CLASSNAME$.builder()&#10;        $CURSOR$&#10;                .build()" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
