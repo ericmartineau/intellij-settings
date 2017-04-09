@@ -77,4 +77,12 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="ttt" value="$DEC$ $VAR$ = com.infusionsoft.utils.transformers.Transformers.getTransformer($DEC$.class);" description="Transformer Field" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="DEC" expression="annotated(&quot;org.mapstruct.Mapper&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
