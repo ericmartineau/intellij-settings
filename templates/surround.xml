@@ -7,7 +7,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cns" value="com.google.common.base.Preconditions.checkNotNull($SELECTION$);" description="checkNotNull" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="cns" value="com.google.common.base.Preconditions.checkNotNull($SELECTION$)" description="checkNotNull" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
