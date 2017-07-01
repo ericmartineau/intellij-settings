@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="g" type="ANTLR v4 grammar file" />
       <mapping pattern="deploy_cdn_resources" type="PLAIN_TEXT" />
       <mapping pattern="uicomponent" type="PLAIN_TEXT" />
       <mapping pattern="AccessorNamingStrategy" type="PLAIN_TEXT" />
