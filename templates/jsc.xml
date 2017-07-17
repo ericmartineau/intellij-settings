@@ -1,0 +1,12 @@
+<templateSet group="jsc">
+  <template name="vfySuc" value="verifySuccess(() -&gt; $SELECTION$);" description="Verify Success" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="vfyFail" value="var e = verifyFailure(() -&gt; $SELECTION$);" description="Verify Failure" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
