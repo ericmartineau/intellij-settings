@@ -87,6 +87,28 @@
             </rule>
           </rules>
         </token>
+        <token id="abstract" name="abstract">
+          <rules>
+            <rule>
+              <match>
+                <AND>
+                  <ABSTRACT>true</ABSTRACT>
+                  <METHOD>true</METHOD>
+                </AND>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+            <rule>
+              <match>
+                <AND>
+                  <ABSTRACT>false</ABSTRACT>
+                  <METHOD>true</METHOD>
+                </AND>
+              </match>
+              <order>BY_NAME</order>
+            </rule>
+          </rules>
+        </token>
       </tokens>
       <groups>
         <group>
@@ -310,8 +332,22 @@
           <rule>
             <match>
               <AND>
+                <GETTER />
                 <METHOD>true</METHOD>
-                <STATIC>true</STATIC>
+                <STATIC>false</STATIC>
+                <abstract />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <ABSTRACT>true</ABSTRACT>
+                <METHOD>true</METHOD>
+                <PUBLIC>false</PUBLIC>
+                <visibility />
               </AND>
             </match>
             <order>BY_NAME</order>
@@ -323,6 +359,7 @@
               <AND>
                 <METHOD>true</METHOD>
                 <PUBLIC>true</PUBLIC>
+                <STATIC>false</STATIC>
               </AND>
             </match>
             <order>BY_NAME</order>
@@ -334,7 +371,19 @@
               <AND>
                 <METHOD>true</METHOD>
                 <PUBLIC>false</PUBLIC>
+                <STATIC>false</STATIC>
                 <visibility_non_public />
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <STATIC>true</STATIC>
               </AND>
             </match>
             <order>BY_NAME</order>
