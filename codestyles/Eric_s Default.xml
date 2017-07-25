@@ -6,6 +6,8 @@
     <value />
   </option>
   <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <option name="FORMATTER_TAGS_ACCEPT_REGEXP" value="true" />
   <JSCodeStyleSettings>
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
