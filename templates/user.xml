@@ -93,4 +93,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="softly" value="org.assertj.core.api.SoftAssertions.assertSoftly(a-&gt;{&#10;            a.assertThat($CURSOR$)&#10;    $END$;&#10;            &#10;        });" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
