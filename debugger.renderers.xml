@@ -9,6 +9,10 @@
     </Renderer>
     <Renderer ID="ToStringRenderer">
       <option name="NAME" value="unnamed" />
+      <filter>
+        <option name="PATTERN" value="io.dugnutt.jsonschema.six.PathAwareJsonValue" />
+        <option name="ENABLED" value="false" />
+      </filter>
     </Renderer>
     <Renderer ID="ClassRenderer">
       <option name="NAME" value="unnamed" />
@@ -16,7 +20,7 @@
       <option name="SHOW_SYNTHETICS" value="true" />
       <option name="SHOW_VAL_FIELDS_AS_LOCAL_VARIABLES" value="true" />
       <option name="SHOW_STATIC" value="false" />
-      <option name="SHOW_STATIC_FINAL" value="false" />
+      <option name="SHOW_STATIC_FINAL" value="true" />
       <option name="SHOW_FQ_TYPE_NAMES" value="false" />
       <option name="SHOW_DECLARED_TYPE" value="false" />
       <option name="SHOW_OBJECT_ID" value="true" />
@@ -26,5 +30,30 @@
       <option name="NAME" value="Primitive" />
       <option name="SHOW_HEX_VALUE" value="false" />
     </Renderer>
+    <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="java.net.URI" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.net.URI" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="java.net.URI" />
+          <option name="LABEL_EXPRESSION" value="toString()&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="Validators" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="io.dugnutt.jsonschema.validator.SchemaValidator" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="io.dugnutt.jsonschema.validator.SchemaValidator" />
+          <option name="LABEL_EXPRESSION" value="schema().getLocation().getJsonPointerFragment()&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="PathAware" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="io.dugnutt.jsonschema.six.PathAwareJsonValue" />
+      </Renderer>
+    </CustomRenderers>
   </component>
 </application>
