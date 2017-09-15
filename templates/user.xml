@@ -1,12 +1,12 @@
 <templateSet group="user">
-  <template name="anb" value="com.google.common.base.Preconditions.checkArgument(org.apache.commons.lang3.StringUtils.isNotBlank($VAR$), &quot;$VAR$ must not be blank&quot;);" description="" toReformat="true" toShortenFQNames="true">
+  <template name="anb" value="com.google.common.base.Preconditions.checkArgument(org.apache.commons.lang3.StringUtils.isNotBlank($VAR$), &quot;$VAR$ must not be blank&quot;);" description="" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cnn" value="com.google.common.base.Preconditions.checkNotNull($VAR$, &quot;$VAR$ must not be null&quot;);" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="cnn" value="com.google.common.base.Preconditions.checkNotNull($VAR$, &quot;$VAR$ must not be null&quot;);" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true" deactivated="true">
     <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
@@ -98,6 +98,14 @@
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sfm" value="com.infusionsoft.utils.StreamUtils.stream($SELECTION$)&#10;    .filter($VAR$-&gt; $FILTER$)&#10;    .map($VAR$-&gt; $END$)&#10;    .collect($COLLECTOR$)" description="Stream with Map" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VAR" expression="iterableVariable()" defaultValue="item" alwaysStopAt="true" />
+    <variable name="FILTER" expression="" defaultValue="return java8.util.Objects.nonNull($VAR$" alwaysStopAt="true" />
+    <variable name="COLLECTOR" expression="variableOfType(Type)" defaultValue="com.google.common.collect.ImmutableList.toImmutableList()" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
 </templateSet>
