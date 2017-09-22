@@ -1,11 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="sbsp" type="CommandLine" />
-      <mapping pattern="deploy_cdn_resources" type="PLAIN_TEXT" />
       <mapping pattern="uicomponent" type="PLAIN_TEXT" />
       <mapping pattern="AccessorNamingStrategy" type="PLAIN_TEXT" />
       <mapping pattern="result" type="PLAIN_TEXT" />
+      <mapping pattern="deploy_cdn_resources" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
