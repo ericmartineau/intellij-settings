@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="sbsp" type="Bash" />
       <mapping ext="inc" type="Bash" />
       <mapping pattern="uicomponent" type="PLAIN_TEXT" />
       <mapping pattern="AccessorNamingStrategy" type="PLAIN_TEXT" />
