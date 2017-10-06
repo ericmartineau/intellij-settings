@@ -4,7 +4,7 @@
     <option name="runAllPluginsOnIDEStartup" value="true" />
     <option name="pluginsUsage">
       <map>
-        <entry key="fix-project" value="11" />
+        <entry key="fix-project" value="16" />
         <entry key="popupMenu" value="6" />
         <entry key="registerAction" value="2" />
       </map>
