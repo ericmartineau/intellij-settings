@@ -1,7 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="springboot_test_no_runscope" type="Bash" />
       <mapping pattern="sbsp" type="Bash" />
+      <mapping pattern="springboot_test" type="Bash" />
       <mapping ext="inc" type="Bash" />
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
