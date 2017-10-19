@@ -5,6 +5,7 @@
       <mapping pattern="springboot_sdk_test" type="Bash" />
       <mapping pattern="sbsp" type="Bash" />
       <mapping pattern="springboot_test" type="Bash" />
+      <mapping pattern="springboot_setup" type="Bash" />
       <mapping pattern="springboot_test_no_runscope" type="Bash" />
       <mapping ext="inc" type="Bash" />
       <mapping pattern=".gitignore_global" type="Git file" />
