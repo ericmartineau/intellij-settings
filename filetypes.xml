@@ -11,6 +11,7 @@
       <mapping pattern="bak" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="tx" type="PLAIN_TEXT" />
+      <mapping ext="integrator" type="PLAIN_TEXT" />
       <mapping ext="g" type="ANTLR v4 grammar file" />
     </extensionMap>
   </component>
