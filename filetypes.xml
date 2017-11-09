@@ -1,9 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="springboot_deploy" type="Bash" />
       <mapping pattern="springboot_promote" type="Bash" />
       <mapping pattern="springboot_newrelic" type="Bash" />
       <mapping pattern="springboot_sdk_test" type="Bash" />
+      <mapping pattern="springboot_postman_test" type="Bash" />
       <mapping pattern="sbsp" type="Bash" />
       <mapping pattern="springboot_test_post" type="Bash" />
       <mapping pattern="springboot_test" type="Bash" />
