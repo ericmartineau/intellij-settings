@@ -1,14 +1,16 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="springboot_newrelic" type="Bash" />
+      <mapping pattern="springboot_tag_deploy" type="Bash" />
       <mapping pattern=".gitignore_global" type="Git file" />
-      <mapping pattern="run" type="PLAIN_TEXT" />
-      <mapping pattern="AccessorNamingStrategy" type="PLAIN_TEXT" />
-      <mapping pattern="uicomponent" type="PLAIN_TEXT" />
-      <mapping pattern="result" type="PLAIN_TEXT" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
-      <mapping pattern="deploy_cdn_resources" type="PLAIN_TEXT" />
       <mapping pattern="bak" type="PLAIN_TEXT" />
+      <mapping pattern="deploy_cdn_resources" type="PLAIN_TEXT" />
+      <mapping pattern="uicomponent" type="PLAIN_TEXT" />
+      <mapping pattern="run" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern="AccessorNamingStrategy" type="PLAIN_TEXT" />
+      <mapping pattern="result" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="tx" type="PLAIN_TEXT" />
       <mapping ext="integrator" type="PLAIN_TEXT" />
