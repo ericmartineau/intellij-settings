@@ -1,11 +1,15 @@
 <application>
   <component name="GetterTemplates">
-    <option name="defaultTempalteName" value="IntelliJ Default" />
+    <option name="defaultTempalteName" value="Optional Getter" />
     <option name="templates">
       <list>
         <TemplateResource>
           <option name="fileName" value="Builder" />
           <option name="template" value="#if($field.modifierStatic)&#10;static ##&#10;#end&#10;$field.type ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#if ($field.boolean &amp;&amp; $field.primitive)&#10;  ##&#10;#else&#10;  ##&#10;#end&#10;${name}() {&#10;  return $field.name;&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="Optional Getter" />
+          <option name="template" value="#if($field.modifierStatic)&#10;static ##&#10;#end&#10;Optional&lt;$field.type&gt; ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#if ($field.boolean &amp;&amp; $field.primitive)&#10;##&#10;#else&#10;##&#10;#end&#10;${name}() {&#10;return Optional.ofNullable($field.name);&#10;}" />
         </TemplateResource>
       </list>
     </option>
