@@ -267,6 +267,16 @@
           <rule>
             <match>
               <AND>
+                <METHOD>true</METHOD>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <INITIALIZER_BLOCK>true</INITIALIZER_BLOCK>
                 <STATIC>true</STATIC>
               </AND>
@@ -375,16 +385,6 @@
           <rule>
             <match>
               <CONSTRUCTOR>true</CONSTRUCTOR>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
-                <STATIC>true</STATIC>
-              </AND>
             </match>
           </rule>
         </section>
