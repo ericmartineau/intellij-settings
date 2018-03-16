@@ -9,6 +9,5 @@
         <added pattern="org.gradle.kotlin.dsl.GroovyBuilderScope.invoke(keywordArguments)" />
       </blacklist>
     </blacklists>
-    <option id="SHOW_LAMBDA_RETURN_EXPRESSION" value="false" />
   </component>
 </application>
