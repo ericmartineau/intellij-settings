@@ -2,6 +2,6 @@
   <component name="CodeInsightSettings">
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
-    <EXCLUDED_PACKAGE NAME="org.gradle.kotlin.dsl.*" />
+    <EXCLUDED_PACKAGE NAME="io.mverse.gradle.mverse" />
   </component>
 </application>
