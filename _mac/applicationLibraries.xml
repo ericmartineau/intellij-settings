@@ -1968,7 +1968,6 @@
         <root url="file:///usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" />
         <root url="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages" />
         <root url="file:///usr/local/lib/python2.7/site-packages" />
-        <root url="file:///usr/local/lib/python2.7/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.1/python_stubs/-1199944087" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2" />
@@ -1985,7 +1984,6 @@
         <root url="file:///usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
         <root url="file:///usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" />
         <root url="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages" />
-        <root url="file:///usr/local/lib/python2.7/site-packages" />
         <root url="file:///usr/local/lib/python2.7/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.1/python_stubs/-1199944087" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
