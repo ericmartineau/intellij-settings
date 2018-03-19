@@ -1958,43 +1958,6 @@
         <root url="jar://$USER_HOME$/.sdkman/candidates/grails/3.1.7/src/grails-web-url-mappings-3.1.7-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Python 2.7.10 (/usr/bin/python2.7) interpreter library">
-      <CLASSES>
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" />
-        <root url="file:///Library/Python/2.7/site-packages" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/-1247972723" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" />
-        <root url="file:///Library/Python/2.7/site-packages" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python" />
-        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/-1247972723" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
-      </SOURCES>
-    </library>
     <library name="Python 2.7.13 (/usr/local/bin/python2.7) interpreter library">
       <CLASSES>
         <root url="file:///usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
@@ -2063,15 +2026,12 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
       </SOURCES>
     </library>
-    <library name="Python 3.6 (sbsp-cli) interpreter library">
+    <library name="Python 3.6.2 (/usr/local/bin/python3.6) interpreter library">
       <CLASSES>
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.3/lib/python3.6" />
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.3/lib/python3.6/lib-dynload" />
-        <root url="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6" />
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.3/lib/python3.6/site-packages" />
-        <root url="file://$USER_HOME$/sbsp-cli/sbsp-cli-core" />
-        <root url="file://$USER_HOME$/sbsp-cli/sbsp-cli-plugins/gcloud-plugin" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.3/python_stubs/674803282" />
+        <root url="file:///usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6" />
+        <root url="file:///usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/lib-dynload" />
+        <root url="file:///usr/local/lib/python3.6/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/-1199943127" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.6" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.5" />
@@ -2084,48 +2044,10 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.3/lib/python3.6" />
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.3/lib/python3.6/lib-dynload" />
-        <root url="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6" />
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.3/lib/python3.6/site-packages" />
-        <root url="file://$USER_HOME$/sbsp-cli/sbsp-cli-core" />
-        <root url="file://$USER_HOME$/sbsp-cli/sbsp-cli-plugins/gcloud-plugin" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.3/python_stubs/674803282" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.6" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.5" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.4" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.3" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
-      </SOURCES>
-    </library>
-    <library name="Python 3.6.2 virtualenv at ~/sbsp-cli/.direnv/python-3.6.2 interpreter library">
-      <CLASSES>
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.2/lib/python3.6" />
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.2/lib/python3.6/lib-dynload" />
         <root url="file:///usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6" />
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.2/lib/python3.6/site-packages" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/545720563" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.6" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.5" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.4" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.3" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.2/lib/python3.6" />
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.2/lib/python3.6/lib-dynload" />
-        <root url="file:///usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6" />
-        <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.2/lib/python3.6/site-packages" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/545720563" />
+        <root url="file:///usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/lib-dynload" />
+        <root url="file:///usr/local/lib/python3.6/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/-1199943127" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.6" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.5" />
@@ -2145,7 +2067,7 @@
         <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.3/lib/python3.6/site-packages" />
         <root url="file://$USER_HOME$/sbsp-cli/sbsp-cli-core" />
         <root url="file://$USER_HOME$/sbsp-cli/sbsp-cli-plugins/gcloud-plugin" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/674803282" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/-1677288023" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.6" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.5" />
@@ -2164,7 +2086,7 @@
         <root url="file://$USER_HOME$/sbsp-cli/.direnv/python-3.6.3/lib/python3.6/site-packages" />
         <root url="file://$USER_HOME$/sbsp-cli/sbsp-cli-core" />
         <root url="file://$USER_HOME$/sbsp-cli/sbsp-cli-plugins/gcloud-plugin" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/674803282" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.2/python_stubs/-1677288023" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.6" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.5" />
