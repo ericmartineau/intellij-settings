@@ -5,6 +5,7 @@
       <mapping pattern="bak" type="PLAIN_TEXT" />
       <mapping pattern="result" type="PLAIN_TEXT" />
       <mapping pattern="AccessorNamingStrategy" type="PLAIN_TEXT" />
+      <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="uicomponent" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="deploy_cdn_resources" type="PLAIN_TEXT" />
