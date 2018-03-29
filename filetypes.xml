@@ -13,6 +13,7 @@
       <mapping ext="tx" type="PLAIN_TEXT" />
       <mapping ext="jwt" type="PLAIN_TEXT" />
       <mapping ext="integrator" type="PLAIN_TEXT" />
+      <mapping ext="py__" type="PLAIN_TEXT" />
       <mapping ext="g" type="ANTLR v4 grammar file" />
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="springboot_newrelic" type="Bash" />
