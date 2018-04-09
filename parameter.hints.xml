@@ -1,6 +1,5 @@
 <application>
   <component name="ParameterNameHintsSettings">
-    <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
     <blacklists>
       <blacklist language="TypeScript" />
       <blacklist language="Java" />
@@ -10,6 +9,6 @@
         <added pattern="org.gradle.kotlin.dsl.GroovyBuilderScope.invoke(keywordArguments)" />
       </blacklist>
     </blacklists>
-    <option id="SHOW_LAMBDA_RETURN_EXPRESSION" value="false" />
+    <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
   </component>
 </application>
