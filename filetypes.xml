@@ -16,6 +16,7 @@
       <mapping pattern="uicomponent" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
+      <mapping ext="liquid" type="PLAIN_TEXT" />
       <mapping ext="tx" type="PLAIN_TEXT" />
       <mapping ext="jwt" type="PLAIN_TEXT" />
       <mapping ext="mcmeta" type="PLAIN_TEXT" />
