@@ -1,55 +1,5 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="RenameFile" is_action="true" action_type="1" position="1">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="ChangeSignature" is_action="true" action_type="1" position="2">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="Move" is_action="true" action_type="1" position="3">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="RenameElement" is_action="true" action_type="1" position="4">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group seperator="true" action_type="1" position="5">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="StepOver" is_action="true" action_type="1" position="6">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="Debugger.PopFrame" is_action="true" action_type="1" position="7">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="StepIntoMyCode" is_action="true" action_type="1" position="8">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="StepOut" is_action="true" action_type="1" position="9">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="ChooseDebugConfiguration" is_action="true" action_type="1" position="10">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <action id="RenameElement" icon="$USER_HOME$/Dropbox/IntellijIcons/actions/edit@2x_dark.png" />
     <action id="Move" icon="$USER_HOME$/Dropbox/IntellijIcons/actions/nextfile@2x.png" />
     <action id="ChangeSignature" icon="$USER_HOME$/Dropbox/IntellijIcons/actions/GroupByPrefix@2x.png" />
