@@ -9,6 +9,7 @@
         <added pattern="org.gradle.kotlin.dsl.GroovyBuilderScope.invoke(keywordArguments)" />
       </blacklist>
     </blacklists>
+    <option id="SHOW_PROPERTY_HINT" value="true" />
     <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
     <option id="SHOW_PARAMETER_TYPE_HINT" value="true" />
   </component>
