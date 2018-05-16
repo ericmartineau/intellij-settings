@@ -6,6 +6,7 @@
     <EXCLUDED_PACKAGE NAME="com.ibm" />
     <EXCLUDED_PACKAGE NAME="io.mverse.gradle.mverse" />
     <EXCLUDED_PACKAGE NAME="javax.swing" />
+    <EXCLUDED_PACKAGE NAME="org.gradle.internal" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Mverse" />
 </application>
