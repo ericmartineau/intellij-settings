@@ -21,6 +21,7 @@
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="liquid" type="PLAIN_TEXT" />
       <mapping ext="tx" type="PLAIN_TEXT" />
+      <mapping ext="klib" type="PLAIN_TEXT" />
       <mapping ext="jwt" type="PLAIN_TEXT" />
       <mapping ext="mcmeta" type="PLAIN_TEXT" />
       <mapping ext="integrator" type="PLAIN_TEXT" />
