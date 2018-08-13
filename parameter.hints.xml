@@ -7,10 +7,12 @@
       <blacklist language="Kotlin">
         <added pattern="org.gradle.kotlin.dsl.GroovyBuilderScope.invoke(keywordArguments,builder)" />
         <added pattern="org.gradle.kotlin.dsl.GroovyBuilderScope.invoke(keywordArguments)" />
+        <added pattern="io.mverse.jsonschema.SchemaBuilder.propertySchema(propertySchemaKey,block)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
     <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
     <option id="SHOW_PARAMETER_TYPE_HINT" value="true" />
+    <option id="SHOW_LAMBDA_IMPLICIT_PARAMETER_RECEIVER" value="false" />
   </component>
 </application>
