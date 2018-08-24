@@ -26,6 +26,80 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="JsonObjectBuilderImpl$JsonObjectImpl" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" value="valueMap&#13;&#13;JAVA" />
+        </Renderer>
+        <Renderer ID="ExpressionChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
+          <option name="CHILDREN_EXPANDABLE" value="&#13;&#13;JAVA" />
+          <option name="CHILDREN_EXPRESSION" value="valueMap&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="JsonObjectBuilderImpl$JsonObjectImpl" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
+        <Renderer ID="ExpressionChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
+          <option name="CHILDREN_EXPANDABLE" value="&#13;&#13;JAVA" />
+          <option name="CHILDREN_EXPRESSION" value="valueMap&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="JsonArrayBuilderImpl$JsonArrayImpl" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonArrayBuilderImpl$JsonArrayImpl" />
+        <option name="SHOW_TYPE" value="false" />
+        <Renderer ID="ExpressionChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonArrayBuilderImpl$JsonArrayImpl" />
+          <option name="CHILDREN_EXPANDABLE" value="&#13;&#13;JAVA" />
+          <option name="CHILDREN_EXPRESSION" value="valueList&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
+        <option name="SHOW_TYPE" value="false" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" value="e.getKey() + &quot;: &quot; + e. getValue()&#13;&#13;JAVA" />
+        </Renderer>
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
+          <ChildrenExpression Name="Key">
+            <TextWithImports text="e.getKey()&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+          <ChildrenExpression Name="Value">
+            <TextWithImports text="e.getValue()&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="JsonObjectBuilderImpl$JsonObjectImpl" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
+        <option name="SHOW_TYPE" value="false" />
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="LinkedHashMap$Entry" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.util.LinkedHashMap$Entry" />
+        <option name="SHOW_TYPE" value="false" />
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
+        <option name="SHOW_TYPE" value="false" />
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="JsonValue" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="javax.json.JsonValue" />
