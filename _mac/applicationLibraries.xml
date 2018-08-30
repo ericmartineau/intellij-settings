@@ -1958,6 +1958,18 @@
         <root url="jar://$USER_HOME$/.sdkman/candidates/grails/3.1.7/src/grails-web-url-mappings-3.1.7-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="ionic" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_@ionic_core@4.0.0-beta.7_dist_ionic.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_@ionic_core@4.0.0-beta.7_dist_ionic.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Python 2.7 (python-2.7.14) (1) interpreter library">
       <CLASSES>
         <root url="file:///Volumes/Macintosh HD/Users/ericm/Dropbox/Dropbox/Alfred/Alfred.alfredpreferences/workflows/.direnv/python-2.7.14/lib/python2.7" />
