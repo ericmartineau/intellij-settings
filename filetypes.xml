@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="gitignore" type="PLAIN_TEXT" />
       <mapping pattern="CerebroSettingsPlugin" type="PLAIN_TEXT" />
-      <mapping pattern="bak" type="PLAIN_TEXT" />
       <mapping pattern="result" type="PLAIN_TEXT" />
       <mapping pattern="setmultimap" type="PLAIN_TEXT" />
       <mapping pattern="AccessorNamingStrategy" type="PLAIN_TEXT" />
@@ -14,6 +13,7 @@
       <mapping pattern="deploy_cdn_resources" type="PLAIN_TEXT" />
       <mapping pattern=".flowconfig" type="PLAIN_TEXT" />
       <mapping pattern="uicomponent" type="PLAIN_TEXT" />
+      <mapping pattern="bak" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="liquid" type="PLAIN_TEXT" />
@@ -23,6 +23,7 @@
       <mapping ext="mcmeta" type="PLAIN_TEXT" />
       <mapping ext="integrator" type="PLAIN_TEXT" />
       <mapping ext="py__" type="PLAIN_TEXT" />
+      <mapping pattern="mthing.module.ts" type="TypeScript" />
       <mapping ext="g" type="ANTLR v4 grammar file" />
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="springboot_newrelic" type="Bash" />
