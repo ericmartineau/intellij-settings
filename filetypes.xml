@@ -19,7 +19,6 @@
       <mapping ext="liquid" type="PLAIN_TEXT" />
       <mapping ext="tx" type="PLAIN_TEXT" />
       <mapping ext="jwt" type="PLAIN_TEXT" />
-      <mapping ext="mustache" type="PLAIN_TEXT" />
       <mapping ext="mcmeta" type="PLAIN_TEXT" />
       <mapping ext="integrator" type="PLAIN_TEXT" />
       <mapping ext="py__" type="PLAIN_TEXT" />
