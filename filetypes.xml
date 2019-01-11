@@ -1,31 +1,30 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="gitignore" type="PLAIN_TEXT" />
-      <mapping pattern="CerebroSettingsPlugin" type="PLAIN_TEXT" />
-      <mapping pattern="result" type="PLAIN_TEXT" />
-      <mapping pattern="setmultimap" type="PLAIN_TEXT" />
-      <mapping pattern=".envrc" type="PLAIN_TEXT" />
-      <mapping pattern="run" type="PLAIN_TEXT" />
-      <mapping pattern="Procfile" type="PLAIN_TEXT" />
-      <mapping pattern="AccessorNamingStrategy" type="PLAIN_TEXT" />
-      <mapping pattern="uicomponent" type="PLAIN_TEXT" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
-      <mapping pattern="deploy_cdn_resources" type="PLAIN_TEXT" />
-      <mapping pattern=".flowconfig" type="PLAIN_TEXT" />
+      <mapping ext="klib" type="ARCHIVE" />
+      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="bak" type="PLAIN_TEXT" />
+      <mapping pattern="gitignore" type="PLAIN_TEXT" />
+      <mapping pattern="uicomponent" type="PLAIN_TEXT" />
+      <mapping pattern="setmultimap" type="PLAIN_TEXT" />
+      <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping pattern=".flowconfig" type="PLAIN_TEXT" />
+      <mapping pattern=".envrc" type="PLAIN_TEXT" />
+      <mapping pattern="CerebroSettingsPlugin" type="PLAIN_TEXT" />
+      <mapping pattern="run" type="PLAIN_TEXT" />
+      <mapping pattern="deploy_cdn_resources" type="PLAIN_TEXT" />
+      <mapping pattern="AccessorNamingStrategy" type="PLAIN_TEXT" />
+      <mapping pattern="result" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="liquid" type="PLAIN_TEXT" />
       <mapping ext="tx" type="PLAIN_TEXT" />
-      <mapping ext="klib" type="PLAIN_TEXT" />
       <mapping ext="jwt" type="PLAIN_TEXT" />
       <mapping ext="mcmeta" type="PLAIN_TEXT" />
       <mapping ext="integrator" type="PLAIN_TEXT" />
       <mapping ext="py__" type="PLAIN_TEXT" />
       <mapping ext="g" type="ANTLR v4 grammar file" />
-      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="springboot_newrelic" type="Bash" />
       <mapping pattern="springboot_tag_deploy" type="Bash" />
     </extensionMap>
