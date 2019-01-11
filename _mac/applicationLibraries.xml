@@ -1,5 +1,17 @@
 <application>
   <component name="libraryTable">
+    <library name="firebase" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_5.4.2_firebase.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_5.4.2_firebase.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="grails-2.1.1">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gvm/grails/2.1.1/dist/grails-2.1.1.jar!/" />
