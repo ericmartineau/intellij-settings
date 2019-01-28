@@ -17,4 +17,15 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="j" value="properties {$SELECTION$}" shortcut="NONE" description="Surround with properties {}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
