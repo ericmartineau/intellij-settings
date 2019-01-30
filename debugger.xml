@@ -127,7 +127,9 @@
     </CustomRenderers>
   </component>
   <component name="XDebuggerSettings">
-    <data-views />
+    <data-views>
+      <show-values-inline>false</show-values-inline>
+    </data-views>
     <general />
     <debuggers>
       <debugger id="javascript">
