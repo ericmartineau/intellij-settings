@@ -5,6 +5,10 @@
   <action id="HelloWorldAction">
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="PasteMultiple" />
   <action id="RearrangeCode">
     <keyboard-shortcut first-keystroke="meta alt r" />
