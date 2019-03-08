@@ -37,6 +37,10 @@
     <driver id="sybase.ase">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="mysql.8">
+      <artifact name="MySQL Connector/J 8" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="mysql">
       <artifact name="MySQL Connector/J" use="true" />
       <option name="auto-sync" value="true" />
@@ -48,8 +52,13 @@
       </library>
     </driver>
     <driver id="mariadb">
-      <artifact name="MariaDB Connector J" use="true" />
+      <artifact name="MariaDB Connector J" use="true" version="2.2.1" />
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="schema-control" value="AUTOMATIC" />
+      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
     <driver id="oracle">
       <artifact name="Oracle" use="true" />
@@ -106,6 +115,19 @@
     <driver id="cassandra">
       <artifact name="Cassandra" use="true" />
       <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="vertica">
+      <artifact name="Vertica" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="hive">
+      <artifact name="Hive" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="greenplum">
+      <artifact name="PostgreSQL" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
     </driver>
     <driver id="85825789-bd46-427d-a1d3-045ad5b27b8b" name="goldfish-backend dev driver" dialect="PostgreSQL" driver-class="org.postgresql.Driver" icon="AllIcons.Providers.Postgresql">
       <url-template name="default" template="jdbc:postgresql:[//[{host::localhost}[:{port::5432}]]/]{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
