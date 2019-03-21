@@ -4,6 +4,7 @@
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping ext="liquid" type="Markdown" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="jekyll" type="PLAIN_TEXT" />
       <mapping ext="config" type="YAML" />
       <mapping ext="fnc" type="DBN-PSQL" />
