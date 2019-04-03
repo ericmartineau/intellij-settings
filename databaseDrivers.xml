@@ -51,14 +51,13 @@
         <url>file://$USER_HOME$/Projects/cubtrail/lib/mysql-connector-java-5.1.10.jar</url>
       </library>
     </driver>
-    <driver id="mariadb">
+    <driver id="mariadb" dialect="PostgreSQL">
       <artifact name="MariaDB Connector J" use="true" version="2.2.1" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
       <option name="format-sources-on-sync" value="true" />
       <option name="send-app-info" value="true" />
       <option name="schema-control" value="AUTOMATIC" />
-      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
     <driver id="oracle">
       <artifact name="Oracle" use="true" />
@@ -77,7 +76,6 @@
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.4-1201.jdbc4.jar</url>
       </library>
-      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
     <driver id="redshift">
       <artifact name="Redshift" use="true" />
@@ -98,7 +96,6 @@
       <option name="auto-commit" value="true" />
       <option name="send-app-info" value="true" />
       <option name="schema-control" value="AUTOMATIC" />
-      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
     <driver id="sqlite.xerial">
       <artifact name="Xerial SQLiteJDBC" use="true" />
