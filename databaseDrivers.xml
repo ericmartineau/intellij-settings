@@ -51,7 +51,7 @@
         <url>file://$USER_HOME$/Projects/cubtrail/lib/mysql-connector-java-5.1.10.jar</url>
       </library>
     </driver>
-    <driver id="mariadb" dialect="PostgreSQL">
+    <driver id="mariadb">
       <artifact name="MariaDB Connector J" use="true" version="2.2.1" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
