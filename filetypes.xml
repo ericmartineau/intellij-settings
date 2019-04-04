@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="liquid" type="Markdown" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
