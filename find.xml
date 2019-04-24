@@ -15,5 +15,6 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.kt</mask>
+    <mask>*.liquid</mask>
   </component>
 </application>
