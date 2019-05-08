@@ -108,4 +108,21 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="bv" value="abstract class $CLASS_NAME$ implements Built&lt;$CLASS_NAME$, $CLASS_NAME$Builder&gt; {&#10;  $CLASS_NAME$._();&#10;  factory $CLASS_NAME$([void Function($CLASS_NAME$Builder) updates]) = _$$$CLASS_NAME$;&#10;}" description="Built Value" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="cof" value="final $TYPE$ $VAR_NAME$ = $TYPE$.of(context);" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_NAME" expression="dartSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="sget" value="static $TYPE$ get(context) =&gt; SunnyContext.get(context);" description="Dart Static Getter Generation" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
 </templateSet>
