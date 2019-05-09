@@ -114,7 +114,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="cof" value="final $TYPE$ $VAR_NAME$ = $TYPE$.of(context);" toReformat="false" toShortenFQNames="true">
+  <template name="cof" value="final $TYPE$ $VAR_NAME$ = $TYPE$.of(context);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR_NAME" expression="dartSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
