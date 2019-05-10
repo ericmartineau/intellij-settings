@@ -1,0 +1,7 @@
+<templateSet group="AndroidComments">
+  <template name="spaced" value="Spaced($SELECTION$)" description="Wraps in spaced widget" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
