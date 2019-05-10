@@ -49,7 +49,7 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="imsg" value="final $VARIABLE$ = Intl.message(&quot;&quot;, &quot;$VARIABLE$&quot;);" description="final msg = Intl.message()" toReformat="false" toShortenFQNames="true">
+  <template name="imsg" value="final $VARIABLE$ = Intl.message(&quot;&quot;, name: &quot;$VARIABLE$&quot;);" description="final msg = Intl.message()" toReformat="false" toShortenFQNames="true">
     <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
