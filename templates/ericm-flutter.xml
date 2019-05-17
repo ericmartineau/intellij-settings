@@ -18,7 +18,7 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="sget" value="static $TYPE$ get(context) =&gt; SunnyContext.get(context);" description="SunnyContext getter" toReformat="false" toShortenFQNames="true">
+  <template name="sget" value="static $TYPE$ get instance =&gt; Sunny.get();" description="SunnyContext getter" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
