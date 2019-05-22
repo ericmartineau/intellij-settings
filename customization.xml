@@ -1,8 +1,0 @@
-<application>
-  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <action id="RenameElement" icon="$USER_HOME$/Dropbox/IntellijIcons/actions/edit@2x_dark.png" />
-    <action id="Move" icon="$USER_HOME$/Dropbox/IntellijIcons/actions/nextfile@2x.png" />
-    <action id="ChangeSignature" icon="$USER_HOME$/Dropbox/IntellijIcons/actions/GroupByPrefix@2x.png" />
-    <action id="RenameFile" icon="$USER_HOME$/Dropbox/IntellijIcons/actions/editSource@2x.png" />
-  </component>
-</application>
