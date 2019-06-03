@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Profiling" shouldReadAloud="true" />
+  </component>
+</application>
