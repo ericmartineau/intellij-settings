@@ -16,6 +16,17 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="io.mverse.engine.mthing.keys.MKey" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="io.mverse.engine.mthing.keys.MKey" />
+          <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="">
+            <TextWithImports text="&#13;&#13;Kotlin" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="JsonObjectBuilderImpl$JsonObjectImpl" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
@@ -140,7 +151,6 @@
       <debugger id="kotlin_debugger">
         <configuration>
           <option name="DEBUG_IS_FILTER_FOR_STDLIB_ALREADY_ADDED" value="true" />
-          <option name="DEBUG_RENDER_DELEGATED_PROPERTIES" value="false" />
         </configuration>
       </debugger>
     </debuggers>
