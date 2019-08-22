@@ -1,4 +1,5 @@
 <profile version="1.0">
   <option name="myName" value="Mverse" />
   <inspection_tool class="CheckStyle" enabled="true" level="Formatting" enabled_by_default="true" />
+  <inspection_tool class="MemberVisibilityCanBePrivate" enabled="false" level="INFO" enabled_by_default="false" />
 </profile>
