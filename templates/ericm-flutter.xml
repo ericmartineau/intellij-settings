@@ -65,4 +65,12 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="mobx" value="part '$FILE_NAME$.g.dart';&#10;&#10;class $CLASS_NAME$ extends $CLASS_NAME$Base with _$$$CLASS_NAME$ {&#10;}&#10;&#10;$CLASS_NAME$ get $VARIABLE_NAME$ =&gt; Sunny.get();&#10;&#10;abstract class $CLASS_NAME$Base with Store {&#10;}" description="MobX Stoe" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_NAME" expression="capitalize(underscoresToCamelCase(FILE_NAME))" defaultValue="" alwaysStopAt="true" />
+    <variable name="VARIABLE_NAME" expression="camelCase(CLASS_NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
