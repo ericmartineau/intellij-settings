@@ -137,6 +137,9 @@
       </Renderer>
     </CustomRenderers>
   </component>
+  <component name="ViewsSettings">
+    <option name="POPULATE_THROWABLE_STACKTRACE" value="false" />
+  </component>
   <component name="XDebuggerSettings">
     <data-views>
       <show-values-inline>false</show-values-inline>
