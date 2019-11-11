@@ -3,6 +3,7 @@
     <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
     <option name="WATCH_RETURN_VALUES" value="true" />
+    <option name="AUTO_VARIABLES_MODE" value="true" />
     <option name="EVALUATE_FINALLY_ON_POP_FRAME" value="EvaluateFinallyAlways" />
   </component>
   <component name="NodeRendererSettings">
@@ -152,6 +153,11 @@
         <configuration>
           <option name="DEBUG_IS_FILTER_FOR_STDLIB_ALREADY_ADDED" value="true" />
           <option name="DEBUG_RENDER_DELEGATED_PROPERTIES" value="true" />
+        </configuration>
+      </debugger>
+      <debugger id="oracle">
+        <configuration>
+          <option name="steppingPauseAtBegin" value="true" />
         </configuration>
       </debugger>
     </debuggers>
