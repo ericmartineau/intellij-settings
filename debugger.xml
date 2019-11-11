@@ -3,7 +3,6 @@
     <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
     <option name="WATCH_RETURN_VALUES" value="true" />
-    <option name="AUTO_VARIABLES_MODE" value="true" />
     <option name="EVALUATE_FINALLY_ON_POP_FRAME" value="EvaluateFinallyAlways" />
   </component>
   <component name="NodeRendererSettings">
@@ -141,9 +140,7 @@
     <option name="POPULATE_THROWABLE_STACKTRACE" value="false" />
   </component>
   <component name="XDebuggerSettings">
-    <data-views>
-      <show-values-inline>false</show-values-inline>
-    </data-views>
+    <data-views />
     <general />
     <debuggers>
       <debugger id="javascript">
