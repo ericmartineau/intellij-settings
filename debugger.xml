@@ -2,6 +2,7 @@
   <component name="DebuggerSettings">
     <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
+    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
     <option name="WATCH_RETURN_VALUES" value="true" />
     <option name="AUTO_VARIABLES_MODE" value="true" />
     <option name="EVALUATE_FINALLY_ON_POP_FRAME" value="EvaluateFinallyAlways" />
@@ -15,6 +16,23 @@
       </filter>
     </Renderer>
     <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="MEntity" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="io.mverse.engine.entity.MEntity" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="io.mverse.engine.entity.MEntity" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" value="this::class.java.simpleName + mmeta.mkey&#13;&#13;Kotlin" />
+        </Renderer>
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="io.mverse.engine.entity.MEntity" />
+          <option name="AppendDefault" value="true" />
+          <ChildrenExpression Name="id">
+            <TextWithImports text="mmeta.mkey&#13;&#13;Kotlin" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
       <Renderer ID="CompoundTypeRenderer">
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="io.mverse.engine.mthing.keys.MKey" />
@@ -153,11 +171,6 @@
         <configuration>
           <option name="DEBUG_IS_FILTER_FOR_STDLIB_ALREADY_ADDED" value="true" />
           <option name="DEBUG_RENDER_DELEGATED_PROPERTIES" value="true" />
-        </configuration>
-      </debugger>
-      <debugger id="oracle">
-        <configuration>
-          <option name="steppingPauseAtBegin" value="true" />
         </configuration>
       </debugger>
     </debuggers>
