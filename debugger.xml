@@ -173,6 +173,11 @@
           <option name="DEBUG_RENDER_DELEGATED_PROPERTIES" value="true" />
         </configuration>
       </debugger>
+      <debugger id="oracle">
+        <configuration>
+          <option name="steppingPauseAtBegin" value="true" />
+        </configuration>
+      </debugger>
     </debuggers>
   </component>
 </application>
