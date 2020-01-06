@@ -1,7 +1,6 @@
 <application>
   <component name="UISettings">
     <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
-    <option name="CLOSE_TAB_BUTTON_ON_THE_RIGHT" value="false" />
     <option name="HIDE_TABS_IF_NEED" value="false" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="19" />
     <option name="MAX_LOOKUP_WIDTH2" value="540" />
