@@ -11,5 +11,6 @@
     <entry key="BSP.system.in.process" value="true" />
     <entry key="js.debugger.webconsole" value="false" />
     <entry key="ide.tooltip.initialDelay" value="231" />
+    <entry key="dart.server.additional.arguments" value="--enable-completion-model" />
   </component>
 </application>
