@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="part" type="Dart" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="foo" type="PLAIN_TEXT" />
       <mapping pattern="release-notes" type="PLAIN_TEXT" />
