@@ -1,23 +1,19 @@
 <application>
   <component name="GrepConsole">
-    <option name="donationNagger">
-      <DonationNagger>
-        <option name="actionsExecuted" value="4" />
-        <option name="firstUsage" value="0" />
-        <option name="firstUsedVersion" value="8.6.162.000.5" />
-      </DonationNagger>
-    </option>
     <option name="profiles">
       <list>
         <Profile>
+          <option name="bufferStreams" value="true" />
           <option name="defaultProfile" value="true" />
           <option name="enableFoldings" value="true" />
+          <option name="filterOutBeforeGrep" value="true" />
           <option name="grepExpressionGroups">
             <list>
               <GrepExpressionGroup>
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
+                      <option name="fold" value="true" />
                       <option name="grepExpression" value=".*FATAL.*" />
                       <option name="style">
                         <GrepStyle>
@@ -138,7 +134,8 @@
                     <GrepExpressionItem>
                       <option name="action" value="REMOVE" />
                       <option name="caseInsensitive" value="true" />
-                      <option name="grepExpression" value=".*TimerWatchThread.*Could not.*" />
+                      <option name="grepExpression" value="^.*TimerWatchThread.*$" />
+                      <option name="highlightOnlyMatchingText" value="true" />
                       <option name="inputFilter" value="true" />
                     </GrepExpressionItem>
                   </list>
