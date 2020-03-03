@@ -2,7 +2,7 @@
   <component name="GrepConsole">
     <option name="donationNagger">
       <DonationNagger>
-        <option name="actionsExecuted" value="2" />
+        <option name="actionsExecuted" value="4" />
         <option name="firstUsage" value="0" />
         <option name="firstUsedVersion" value="8.6.162.000.5" />
       </DonationNagger>
@@ -130,6 +130,23 @@
             </list>
           </option>
           <option name="id" value="1473023843312" />
+          <option name="inputFilterGroups">
+            <list>
+              <GrepExpressionGroup>
+                <option name="grepExpressionItems">
+                  <list>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE" />
+                      <option name="caseInsensitive" value="true" />
+                      <option name="grepExpression" value=".*TimerWatchThread.*Could not.*" />
+                      <option name="inputFilter" value="true" />
+                    </GrepExpressionItem>
+                  </list>
+                </option>
+                <option name="name" value="default" />
+              </GrepExpressionGroup>
+            </list>
+          </option>
           <option name="name" value="default" />
         </Profile>
       </list>
