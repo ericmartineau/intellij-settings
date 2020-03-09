@@ -121,6 +121,7 @@
                   <list>
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
+                      <option name="enabled" value="false" />
                       <option name="fold" value="true" />
                       <option name="grepExpression" value=".*kafka-consumers-sync-channels.*" />
                       <option name="showCountInConsole" value="true" />
