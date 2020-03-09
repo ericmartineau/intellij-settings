@@ -12,5 +12,6 @@
     <entry key="js.debugger.webconsole" value="false" />
     <entry key="ide.tooltip.initialDelay" value="231" />
     <entry key="dart.server.additional.arguments" value="--enable-completion-model" />
+    <entry key="debugger.watches.in.variables" value="false" />
   </component>
 </application>
