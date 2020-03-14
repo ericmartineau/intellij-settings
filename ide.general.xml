@@ -9,8 +9,7 @@
     <entry key="SBT.system.in.process" value="true" />
     <entry key="BSP.experimental.feature.enabled" value="false" />
     <entry key="BSP.system.in.process" value="true" />
-    <entry key="js.debugger.webconsole" value="false" />
-    <entry key="ide.tooltip.initialDelay" value="10" />
-    <entry key="debugger.watches.in.variables" value="false" />
+    <entry key="ide.tooltip.initialDelay" value="30" />
+    <entry key="bigger.font.in.project.view" value="true" />
   </component>
 </application>
