@@ -3,7 +3,7 @@
     <property name="created">2019-02-07T21:30:36</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2019.1.0.0</property>
-    <property name="modified">2019-05-17T22:10:13</property>
+    <property name="modified">2019-12-18T23:11:42</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
@@ -28,4 +28,29 @@
     <option name="FILESTATUS_addedOutside" value="c3e88d" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
   </colors>
+  <attributes>
+    <option name="FLUTTER_LOG_FINER_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="a0505" />
+        <option name="BACKGROUND" value="64696c" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_FINEST_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="a0505" />
+        <option name="BACKGROUND" value="64696c" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_FINE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="a0505" />
+        <option name="BACKGROUND" value="64696c" />
+      </value>
+    </option>
+    <option name="FLUTTER_LOG_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="bba641" />
+      </value>
+    </option>
+  </attributes>
 </scheme>

@@ -1,6 +1,7 @@
 <application>
   <component name="NotificationConfiguration">
     <notification groupId="Dart Analysis" displayType="NONE" shouldLog="false" />
+    <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
     <notification groupId="Profiling" shouldReadAloud="true" />
     <notification groupId="Vcs Important Messages" />
   </component>
