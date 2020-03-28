@@ -122,20 +122,17 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="io.mverse.possessions.models.Instrument" />
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="MEntity" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="io.mverse.engine.entity.MEntity" />
         <Renderer ID="LabelRenderer" role="label">
           <option name="QUALIFIED_NAME" value="io.mverse.engine.entity.MEntity" />
           <option name="ON_DEMAND" value="false" />
-          <option name="LABEL_EXPRESSION" value="this::class.java.simpleName + mmeta.mkey&#13;&#13;Kotlin" />
-        </Renderer>
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="io.mverse.engine.entity.MEntity" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="id">
-            <TextWithImports text="mmeta.mkey&#13;&#13;Kotlin" type="expression" />
-          </ChildrenExpression>
+          <option name="LABEL_EXPRESSION" value="this::class.java.simpleName + &quot;:&quot; + mmeta.mkey&#13;&#13;Kotlin" />
         </Renderer>
       </Renderer>
       <Renderer ID="CompoundTypeRenderer">
