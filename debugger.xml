@@ -1,5 +1,6 @@
 <application>
   <component name="DebuggerSettings">
+    <option name="FORCE_CLASSIC_VM" value="false" />
     <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
     <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
@@ -125,148 +126,14 @@
         <option name="INCLUDE" value="true" />
       </filter>
     </Renderer>
-    <CustomRenderers VERSION="8">
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="io.mverse.possessions.models.Instrument" />
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="MEntity" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="io.mverse.engine.entity.MEntity" />
-        <Renderer ID="LabelRenderer" role="label">
-          <option name="QUALIFIED_NAME" value="io.mverse.engine.entity.MEntity" />
-          <option name="ON_DEMAND" value="false" />
-          <option name="LABEL_EXPRESSION" value="this::class.java.simpleName + &quot;:&quot; + mmeta.mkey&#13;&#13;Kotlin" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="io.mverse.engine.mthing.keys.MKey" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="io.mverse.engine.mthing.keys.MKey" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="&#13;&#13;Kotlin" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="JsonObjectBuilderImpl$JsonObjectImpl" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
-        <Renderer ID="LabelRenderer" role="label">
-          <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
-          <option name="ON_DEMAND" value="false" />
-          <option name="LABEL_EXPRESSION" value="valueMap&#13;&#13;JAVA" />
-        </Renderer>
-        <Renderer ID="ExpressionChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
-          <option name="CHILDREN_EXPANDABLE" value="&#13;&#13;JAVA" />
-          <option name="CHILDREN_EXPRESSION" value="valueMap&#13;&#13;JAVA" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="JsonObjectBuilderImpl$JsonObjectImpl" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
-        <Renderer ID="ExpressionChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
-          <option name="CHILDREN_EXPANDABLE" value="&#13;&#13;JAVA" />
-          <option name="CHILDREN_EXPRESSION" value="valueMap&#13;&#13;JAVA" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="JsonArrayBuilderImpl$JsonArrayImpl" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonArrayBuilderImpl$JsonArrayImpl" />
-        <option name="SHOW_TYPE" value="false" />
-        <Renderer ID="ExpressionChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonArrayBuilderImpl$JsonArrayImpl" />
-          <option name="CHILDREN_EXPANDABLE" value="&#13;&#13;JAVA" />
-          <option name="CHILDREN_EXPRESSION" value="valueList&#13;&#13;JAVA" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
-        <option name="SHOW_TYPE" value="false" />
-        <Renderer ID="LabelRenderer" role="label">
-          <option name="QUALIFIED_NAME" value="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
-          <option name="ON_DEMAND" value="false" />
-          <option name="LABEL_EXPRESSION" value="e.getKey() + &quot;: &quot; + e. getValue()&#13;&#13;JAVA" />
-        </Renderer>
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
-          <ChildrenExpression Name="Key">
-            <TextWithImports text="e.getKey()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-          <ChildrenExpression Name="Value">
-            <TextWithImports text="e.getValue()&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="JsonObjectBuilderImpl$JsonObjectImpl" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl" />
-        <option name="SHOW_TYPE" value="false" />
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="LinkedHashMap$Entry" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="java.util.LinkedHashMap$Entry" />
-        <option name="SHOW_TYPE" value="false" />
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" />
-        <option name="SHOW_TYPE" value="false" />
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="JsonValue" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="javax.json.JsonValue" />
-        <Renderer ID="LabelRenderer" role="label">
-          <option name="QUALIFIED_NAME" value="javax.json.JsonValue" />
-          <option name="ON_DEMAND" value="false" />
-          <option name="LABEL_EXPRESSION" value="toString()&#13;&#13;JAVA" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="java.net.URI" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="java.net.URI" />
-        <Renderer ID="LabelRenderer" role="label">
-          <option name="QUALIFIED_NAME" value="java.net.URI" />
-          <option name="ON_DEMAND" value="false" />
-          <option name="LABEL_EXPRESSION" value="toString()&#13;&#13;JAVA" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="Validators" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="io.dugnutt.jsonschema.validator.SchemaValidator" />
-        <Renderer ID="LabelRenderer" role="label">
-          <option name="QUALIFIED_NAME" value="io.dugnutt.jsonschema.validator.SchemaValidator" />
-          <option name="ON_DEMAND" value="false" />
-          <option name="LABEL_EXPRESSION" value="getSchema().getLocation().getJsonPointerFragment()&#13;&#13;JAVA" />
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="NAME" value="PathAware" />
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="io.dugnutt.jsonschema.six.PathAwareJsonValue" />
-      </Renderer>
-    </CustomRenderers>
   </component>
   <component name="ViewsSettings">
     <option name="POPULATE_THROWABLE_STACKTRACE" value="false" />
   </component>
   <component name="XDebuggerSettings">
-    <data-views />
+    <data-views>
+      <option name="autoExpressions" value="false" />
+    </data-views>
     <general />
     <debuggers>
       <debugger id="oracle">
