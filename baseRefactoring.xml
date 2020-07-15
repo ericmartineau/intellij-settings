@@ -19,6 +19,7 @@
     <option name="EXTRACT_INTERFACE_JAVADOC" value="2" />
     <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
     <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="true" />
+    <option name="INTRODUCE_LOCAL_CREATE_VAR_TYPE" value="true" />
     <option name="RENAME_VARIABLES" value="false" />
   </component>
 </application>
