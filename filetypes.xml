@@ -18,6 +18,8 @@
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <mapping pattern="Fastfile" type="Ruby" />
+      <mapping pattern="Appfile" type="Ruby" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="liquid" approved="true" type="Markdown" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
@@ -37,8 +39,6 @@
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern=".gitignore_global" type="Git file" />
-      <mapping pattern="Appfile" type="Ruby" />
-      <mapping pattern="Fastfile" type="Ruby" />
     </extensionMap>
   </component>
 </application>
