@@ -4,6 +4,7 @@
       <mapping ext="part" type="Dart" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="fluro_ext" type="PLAIN_TEXT" />
       <mapping pattern="release-nots" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="lockfile" type="PLAIN_TEXT" />
