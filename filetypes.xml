@@ -8,6 +8,7 @@
       <mapping pattern="release-nots" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="lockfile" type="PLAIN_TEXT" />
+      <mapping pattern="edit_trip_modal" type="PLAIN_TEXT" />
       <mapping pattern="foo" type="PLAIN_TEXT" />
       <mapping pattern="add_contact_page" type="PLAIN_TEXT" />
       <mapping pattern="release-notes" type="PLAIN_TEXT" />
