@@ -13,8 +13,8 @@
     <mask>*.kt</mask>
     <mask>*.liquid</mask>
     <mask>*.java</mask>
-    <mask>*.dart</mask>
     <mask>*.xml</mask>
+    <mask>*.dart</mask>
     <mask>*.dart</mask>
   </component>
 </application>
