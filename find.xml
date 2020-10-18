@@ -17,8 +17,8 @@
     <mask>*.liquid</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
-    <mask>*.dart</mask>
     <mask>*.podspec</mask>
+    <mask>*.dart</mask>
     <mask>*.dart</mask>
   </component>
 </application>
