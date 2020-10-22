@@ -13,4 +13,11 @@
     <entry key="ide.tooltip.initialDelay" value="30" />
     <entry key="bigger.font.in.project.view" value="true" />
   </component>
+  <component name="StatusBar">
+    <option name="widgets">
+      <map>
+        <entry key="Memory" value="true" />
+      </map>
+    </option>
+  </component>
 </application>
