@@ -15,5 +15,8 @@
     <option id="SHOW_FUNCTION_HINT" value="true" />
     <option id="SHOW_PARAMETER_TYPE_HINT" value="true" />
     <option id="SHOW_SUSPENDING_CALL" value="true" />
+    <disabledLanguages>
+      <language id="kotlin" />
+    </disabledLanguages>
   </component>
 </application>
