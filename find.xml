@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.kt" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -10,12 +11,12 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.kt</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
     <mask>*.podspec</mask>
     <mask>*.dart</mask>
     <mask>*.liquid</mask>
     <mask>*.dart</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
