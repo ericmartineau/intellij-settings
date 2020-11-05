@@ -124,10 +124,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_7.11.0_firebase-analytics.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_8.0.0_firebase-analytics.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_7.11.0_firebase-analytics.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_8.0.0_firebase-analytics.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -136,10 +138,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_7.11.0_firebase-app.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_8.0.0_firebase-app.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_7.11.0_firebase-app.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_8.0.0_firebase-app.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -148,10 +152,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_7.11.0_firebase-auth.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_8.0.0_firebase-auth.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_7.11.0_firebase-auth.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_8.0.0_firebase-auth.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
