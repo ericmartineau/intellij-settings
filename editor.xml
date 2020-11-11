@@ -15,7 +15,7 @@
     <option name="HIGHLIGHT_SCOPE" value="true" />
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings">
+  <component name="DaemonCodeAnalyzerSettings" profile="Mverse">
     <option name="AUTOREPARSE_DELAY" value="800" />
   </component>
   <component name="DartCodeFoldingSettings">
